@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://bqna24ul1sdys"]
+
+[ext_resource type="Texture2D" uid="uid://k4lit62eapq5" path="res://assets/backgrounds/deku.jpg" id="1_n3f48"]
+
+[node name="tile" type="Control" unique_id=130490275]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1053024370]
+position = Vector2(32.000004, 32.000004)
+scale = Vector2(0.344, 0.344)
+texture = ExtResource("1_n3f48")
+hframes = 4
+vframes = 4
+
+[node name="Control" type="Control" parent="." unique_id=1328340478]
+layout_mode = 1
+anchor_left = -0.014
+anchor_top = 0.148
+anchor_right = -0.014
+anchor_bottom = 0.148
+offset_left = -207.872
+offset_top = -127.904
+offset_right = -15.872
+offset_bottom = -7.904007
+
+[node name="ColorRect" type="ColorRect" parent="Control" unique_id=2083917862]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.167
+anchor_top = 0.26700002
+anchor_right = 1.5000001
+anchor_bottom = 0.8
+offset_left = -0.06401062
+offset_top = -0.040000916
+offset_right = -3.0517578e-05
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.08627451)
+
+[node name="Label" type="Label" parent="Control" unique_id=729786848]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.167
+anchor_top = 0.26700002
+anchor_right = 1.5000001
+anchor_bottom = 0.8
+offset_left = -0.06401062
+offset_top = -0.040000916
+offset_right = -3.0517578e-05
+grow_horizontal = 2
+grow_vertical = 2
